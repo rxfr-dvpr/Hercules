@@ -3,7 +3,8 @@
 
 ### Here I used:
 - Html5 (BEM)
-- CSS3 (Bootstrap 5)
+- Bootstrap 5
+- CSS3
 - SCSS
 - Javascript (Swiper.js)
 - Git
