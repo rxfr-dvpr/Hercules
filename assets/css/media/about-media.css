@@ -1,0 +1,96 @@
+@media (max-width: 1440px){}
+@media (max-width: 1400px){
+    .services__slider {
+        max-width: 960px !important;
+    }
+}
+@media (max-width: 1320px){}
+@media (max-width: 1290px){}
+@media (max-width: 1200px){
+
+    .services__slider {
+        max-width: 800px !important;
+    }
+
+    .service__slider-desc .row {
+        column-gap: 0 !important;
+    }
+}
+@media (max-width: 1170px){}
+@media (max-width: 1140px){}
+@media (max-width: 1024px){}
+@media (max-width: 992px){
+
+    .services__carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 20px;
+    }
+
+    .service__slide {
+        max-width: none !important;
+    }
+
+    .service__slide img {
+        max-height: none !important;
+    }
+
+    .services__slider-controls {
+        position: static !important;
+    }
+
+    .about__services-title {
+        line-height: normal !important;
+    }
+
+    .service__sdr-subtitle {
+        line-height: normal !important;
+    }
+}
+@media (max-width: 850px){}
+@media (max-width: 768px){}
+@media (max-width: 736px){}
+@media (max-width: 734px){}
+@media (max-width: 684px){}
+@media (max-width: 667px){}
+@media (max-width: 576px){}
+@media (max-width: 480px){}
+@media (max-width: 414px){}
+@media (max-width: 412px){}
+@media (max-width: 375px){}
+@media (max-width: 360px){}
+@media (max-width: 320px){
+
+    .about__services-title {
+        font-size: calc(22px + (14 + 14 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .about__services-text {
+        font-size: calc(15px + (2 + 2 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .service__sdr-subtitle {
+        font-size: calc(22px + (14 + 14 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .service__sdr-text {
+        font-size: calc(15px + (2 + 2 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .about__slider-title {
+        font-size: calc(24px + (10 + 10 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .about__slider-text {
+        font-size: calc(15px + (2 + 2 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .we-want__title {
+        font-size: calc(22px + (11 + 11 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .we-want__text {
+        font-size: calc(15px + (2 + 2 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+}

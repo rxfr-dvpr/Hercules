@@ -1,0 +1,129 @@
+.main .message__section {
+  padding: 55px 0 50px;
+}
+.main .message__section .message__title {
+  font-size: calc(30px + 0.9375vw);
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.main .message__section .row {
+  row-gap: 80px;
+}
+.main .message__section .row .message__form-content {
+  row-gap: 35px;
+  border-right: solid 1px #8D8D8D;
+}
+.main .message__section .row .message__form-content .message__form-desc {
+  row-gap: 10px;
+}
+.main .message__section .row .message__form-content .message__form-desc .message__form-title {
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.main .message__section .row .message__form-content .message__form-desc .message__form-text {
+  max-width: 675px;
+  width: 100%;
+  font-size: 16px;
+  color: #999999;
+}
+.main .message__section .row .message__form-content .message__form {
+  row-gap: 40px;
+  -webkit-column-gap: 70px;
+     -moz-column-gap: 70px;
+          column-gap: 70px;
+}
+.main .message__section .row .message__form-content .message__form input {
+  max-width: 300px;
+  width: 100%;
+  height: 35px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.main .message__section .row .message__form-content .message__form input::-webkit-input-placeholder {
+  color: #fff;
+}
+.main .message__section .row .message__form-content .message__form input::-moz-placeholder {
+  color: #fff;
+}
+.main .message__section .row .message__form-content .message__form input:-ms-input-placeholder {
+  color: #fff;
+}
+.main .message__section .row .message__form-content .message__form input::-ms-input-placeholder {
+  color: #fff;
+}
+.main .message__section .row .message__form-content .message__form input::placeholder {
+  color: #fff;
+}
+.main .message__section .row .message__form-content .message__form #message-inp {
+  max-width: 675px;
+  width: 100% !important;
+  max-height: 125px;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  border-bottom: solid 2px #fff;
+}
+.main .message__section .row .message__form-content .message__form #message-inp::-webkit-input-placeholder {
+  color: #fff;
+}
+.main .message__section .row .message__form-content .message__form #message-inp::-moz-placeholder {
+  color: #fff;
+}
+.main .message__section .row .message__form-content .message__form #message-inp:-ms-input-placeholder {
+  color: #fff;
+}
+.main .message__section .row .message__form-content .message__form #message-inp::-ms-input-placeholder {
+  color: #fff;
+}
+.main .message__section .row .message__form-content .message__form #message-inp::placeholder {
+  color: #fff;
+}
+.main .message__section .row .message__form-content .message__form .send-btn {
+  border: none;
+}
+.main .message__section .row .shop__info-content {
+  row-gap: 30px;
+}
+.main .message__section .row .shop__info-content .shop__info-desc {
+  row-gap: 12px;
+}
+.main .message__section .row .shop__info-content .shop__info-desc .shop__info-title {
+  color: #fff;
+  font-size: 20px;
+}
+.main .message__section .row .shop__info-content .shop__info-desc .shop__info-text {
+  color: #D7D7D7;
+  font-size: 16px;
+}
+.main .message__section .row .shop__info-content .shop__info-desc .shop__desc-box {
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+  max-height: 50px;
+  height: 100%;
+}
+.main .message__section .row .shop__info-content .shop__info-desc .shop__desc-box .shop__desc-icon {
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.main .message__section .row .shop__info-content .shop__info-desc .shop__desc-box .shop__desc-link {
+  font-size: 16px;
+  color: #D7D7D7;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.main .message__section .row .shop__info-content .shop__info-desc .shop__desc-box .shop__desc-link:hover {
+  color: #00C2FF;
+}
+.main .map__section {
+  padding: 50px 0 100px;
+}

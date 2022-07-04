@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hercules</title>
+    <link rel="shortcut icon" href="./assets/img/h-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/css/swiper.css">
+    <link rel="stylesheet" href="./assets/libs/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/media/media.css">
+</head>
+<body id="body">
+
+    <nav class="header__nav w-100 header__nav_bg position-fixed">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+
+                <a href="" class="nav__logo logo-reload"><img src="./assets/img/logo.svg" alt="" class="logo-img"></a>
+
+                <button class="menu__btn">
+                    <span class="btn__line"></span>
+                    <span class="btn__line"></span>
+                    <span class="btn__line"></span>
+                </button>
+
+                <div class="col-xxl-6 col-xl-7 col-lg-8">
+                    <div class="navbar__collapse">
+                        <ul class="nav__list">
+                            <li class="nav__item active"><a href="./index.html" class="nav__link">Home</a></li>
+                            <li class="nav__item"><a href="./pages/about-us.html" class="nav__link">About Us</a></li>
+                            <li class="nav__item"><a href="./pages/service.html" class="nav__link">Services</a></li>
+                            <li class="nav__item"><a href="./pages/news.html" class="nav__link">News</a></li>
+                            <li class="nav__item"><a href="./pages/contact.html" class="nav__link">Contact Us</a></li>
+                        </ul>
+    
+                        <button class="search__btn"><i class="far fa-search"></i></button>
+    
+                        <select class="lang__select" aria-label="Default select example">
+                            <option selected value="UZ" class="lang-option">Uz</option>
+                            <option value="ENG" class="lang-option">Eng</option>
+                            <option value="RU" class="lang-option">Ru</option>
+                        </select>
+
+                        <a href="./pages/profile.html" class="profile__link"><i class="far fa-user"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+
+        <div class="order__info-box" id="top">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+
+                    <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 text-sm-start text-center">
+                        <a href="#!" class="order-link">My order | Order now</a>
+                    </div>
+
+                    <div class="col-xl-2 col-md-3 col-sm-6 text-sm-end text-center">
+                        <a href="tel:+998998173066" class="order-num m-0">+99899 817-30-66</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper" id="header-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide header__slider-slide">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-8">
+                                <div class="header__slider-desc">
+                                    <h1 class="header__slider-title">Own a high-performing, proven automotive franchise</h1>
+            
+                                    <p class="header__slider-text">The automotive industry is strong, and drivers will always need a trustworthy partner for their automotive needs.</p>
+            
+                                    <a href="./pages/contact.html" class="contact-link all-link">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <img src="./assets/img/header/slider/1.svg" alt="" class="header__slider-img">
+                </div>
+
+                <div class="swiper-slide header__slider-slide">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-8">
+                                <div class="header__slider-desc">
+                                    <h1 class="header__slider-title">Supporting your vehicle before it causes you problems</h1>
+            
+                                    <p class="header__slider-text">Life is better without constant car payments or unexpected vehicle problems.</p>
+            
+                                    <a href="./pages/contact.html" class="contact-link all-link">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/img/header/slider/2.svg" alt="" class="header__slider-img">
+                </div>
+
+                <div class="swiper-slide header__slider-slide">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-8">
+                                <div class="header__slider-desc">
+                                    <h1 class="header__slider-title">The best way to avoid problems with vehicle is planning ahead</h1>
+            
+                                    <p class="header__slider-text">The combined effort of the battery, starter, and alternator is what keeps your vehicle powered.</p>
+            
+                                    <a href="./pages/contact.html" class="contact-link all-link">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/img/header/slider/3.svg" alt="" class="header__slider-img">
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination slider__controls"></div>
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <section class="shop__info-section">
+            <div class="container">
+                <div class="row justify-content-xxl-between justify-content-center">
+
+                    <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-8">
+                        <div class="shop__info-item">
+                            <img src="./assets/img/main/shop-info-section/contact-icon.svg" alt="" class="shop__item-icon">
+
+                            <div class="shop__item-desc">
+                                <h2 class="shop__item-title">Contact</h2>
+                                <a href="tel: +99891999-99-99" class="num-link all-text shop-item-text">+99891 999-99-99</a>
+                                <a href="mailto: companyname@info.com" class="email-link all-text">companyname@info.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-8">
+                        <div class="shop__info-item">
+                            <img src="./assets/img/main/shop-info-section/time-icon.svg" alt="" class="shop__item-icon">
+
+                            <div class="shop__item-desc">
+                                <h2 class="shop__item-title">Location</h2>
+                                <p class="all-text shop-item-text">440 S. Church Street, Suite 700, Charlotte, NC 28202</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-8">
+                        <div class="shop__info-item">
+                            <img src="./assets/img/main/shop-info-section/location-icon.svg" alt="" class="shop__item-icon">
+
+                            <div class="shop__item-desc">
+                                <h2 class="shop__item-title">Open hours</h2>
+                                <p class="all-text shop-item-text">Mon - Fri: 8:00am to 5:00pm
+                                <span>Sut - Sun: Close</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="services__section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-xxl-5 col-xl-6 col-lg-7">
+                        <div class="services__desc">
+                            <h2 class="services__title">Auto repair services – Tires. Brakes. Oil. Everything</h2>
+                            <p class="services__text all-text">Midas offers complete auto care for your vehicle.</p>
+                        </div>
+                    </div>
+
+                    <div class="services__content-list">
+                        <div class="row justify-content-xl-start justify-content-center">
+
+                            <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-9 col-11">
+                                <div class="services__content">
+                                    <img src="./assets/img/main/services__section/break-img.png" alt="" class="services__content-img">
+
+                                    <div class="services__content-desc">
+                                        <h4 class="services__content-title">Brakes & Brake Repair</h4>
+    
+                                        <p class="services__content-text all-text">From the brake pedal to hydraulic brake fluid, brake master cylinder to power brake booster, drum brakes to disc brakes and electronic anti-lock brake sensors, Midas technicians know every part of your brake system inside and out and can perform brake</p>
+    
+                                        <a href="#!" class="services__content-link">Read more <i class="far fa-long-arrow-right right-icon"></i></a>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-9 col-11">
+                                <div class="services__content">
+                                    <img src="./assets/img/main/services__section/oil-change-img.png" alt="" class="services__content-img">
+
+                                    <div class="services__content-desc">
+                                        <h4 class="services__content-title">Oil Change</h4>
+    
+                                        <p class="services__content-text all-text">Oil is the lifeblood of your engine. It reduces friction, lessens wear, provides lubrication, forms a seal between the pistons, rings and cylinder walls while helping to cool engine parts. Without the cleaning action of new oil, carbon and varnish buildup would be toxic.</p>
+    
+                                        <a href="#!" class="services__content-link">Read more <i class="far fa-long-arrow-right right-icon"></i></a>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-9 col-11">
+                                <div class="services__content">
+                                    <img src="./assets/img/main/services__section/exhaust-img.png" alt="" class="services__content-img">
+
+                                    <div class="services__content-desc">
+                                        <h4 class="services__content-title">Exhaust System Services</h4>
+    
+                                        <p class="services__content-text all-text">You may think your car's exhaust system is designed only to reduce noise, but it is also responsible for reducing harmful emissions from entering the atmosphere. Properly functioning mufflers and exhaust systems not only sound better, they are better – for you.</p>
+    
+                                        <a href="#!" class="services__content-link">Read more <i class="far fa-long-arrow-right right-icon"></i></a>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-9 col-11">
+                                <div class="services__content">
+                                    <img src="./assets/img/main/services__section/check-engine-img.png" alt="" class="services__content-img">
+
+                                    <div class="services__content-desc">
+                                        <h4 class="services__content-title">Check Engine Light</h4>
+    
+                                        <p class="services__content-text all-text">An illuminated check engine light means you should have your vehicle checked as soon as possible. Midas has the expertise to decipher check engine light codes, resolve the required maintenance or repair issues, and get your car on the road safely.</p>
+    
+                                        <a href="#!" class="services__content-link">Read more <i class="far fa-long-arrow-right right-icon"></i></a>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-9 col-11">
+                                <div class="services__content">
+                                    <img src="./assets/img/main/services__section/lights-img.png" alt="" class="services__content-img">
+
+                                    <div class="services__content-desc">
+                                        <h4 class="services__content-title">Lights, Wipers & Accessories</h4>
+    
+                                        <p class="services__content-text all-text">Car AC systems have components that require love and attention to avoid drying out and cracking. The car heater also needs regular check-ups to make sure there are no leaky valves or blockages. Let your neighborhood Midas service your A/C.</p>
+    
+                                        <a href="#!" class="services__content-link">Read more <i class="far fa-long-arrow-right right-icon"></i></a>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-9 col-11">
+                                <div class="services__content">
+                                    <img src="./assets/img/main/services__section/steering-img.png" alt="" class="services__content-img">
+
+                                    <div class="services__content-desc">
+                                        <h4 class="services__content-title">Steering & Suspension</h4>
+    
+                                        <p class="services__content-text all-text">Utilizing the latest diagnostic equipment our Midas ASE-certified technicians can repair and/or maintain your steering system, car suspension, and wheel alignment to keep you and your vehicle on the road with a smooth ride.</p>
+    
+                                        <a href="#!" class="services__content-link">Read more <i class="far fa-long-arrow-right right-icon"></i></a>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-9 col-11">
+                                <div class="services__content">
+                                    <img src="./assets/img/main/services__section/belts-img.png" alt="" class="services__content-img">
+
+                                    <div class="services__content-desc">
+                                        <h4 class="services__content-title">Belts & Hoses</h4>
+    
+                                        <p class="services__content-text all-text">Sooner or later your car's engine accessory drive belts, timing belts, and coolant hoses will dry out and crack. Regular inspections, coupled with timely automotive belt and hose replacement will help protect against roadside breakdowns and expensive repairs.</p>
+    
+                                        <a href="#!" class="services__content-link">Read more <i class="far fa-long-arrow-right right-icon"></i></a>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-9 col-11">
+                                <div class="services__content">
+                                    <img src="./assets/img/main/services__section/heating-repair.png" alt="" class="services__content-img">
+
+                                    <div class="services__content-desc">
+                                        <h4 class="services__content-title">Car A/C & Heating Repair</h4>
+    
+                                        <p class="services__content-text all-text">Car AC systems have components that require love and attention to avoid drying out and cracking. The car heater also needs regular check-ups to make sure there are no leaky valves or blockages. Let your neighborhood Midas service your A/C.</p>
+    
+                                        <a href="#!" class="services__content-link">Read more <i class="far fa-long-arrow-right right-icon"></i></a>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <a href="./pages/service.html" class="all-link">Browse All</a>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="contact__section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-xxl-7">
+                        <div class="contact__desc d-flex flex-column align-items-center" id="contactDesc">
+
+                            <p class="contact__desc-subtitle">Owners continue to thrive.</p>
+
+                            <h2 class="contact__desc-title">When it comes to what we know about car care, few others can compete.</h2>
+
+                            <a href="./pages/contact.html" class="all-link">Contact Us</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="cards__section">
+            <div class="container">
+                <div class="row justify-content-xl-start justify-content-center">
+
+                    <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-8 col-11">
+                        <div class="card__content">
+                            <img src="./assets/img/main/cards-section/leading.png" alt="" class="card__img">
+
+                            <h4 class="card__title">INDUSTRY-LEADING TOOLS</h4>
+
+                            <p class="card__text">Improve your collision center's efficiency with our proprietary business management system and best-in-class solutions, helping you convert more customers, hit your KPIs.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-8 col-11">
+                        <div class="card__content">
+                            <img src="./assets/img/main/cards-section/power.png" alt="" class="card__img">
+
+                            <h4 class="card__title">UNBEATABLE BUYING POWER</h4>
+
+                            <p class="card__text">Find great deals through Driven Brands' expansive network, and receive discounts and rebates from our 50+ preferred vendors.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-8 col-11">
+                        <div class="card__content">
+                            <img src="./assets/img/main/cards-section/education.png" alt="" class="card__img">
+
+                            <h4 class="card__title">THOROUGH TRAINING AND EDUCATION</h4>
+
+                            <p class="card__text">Attain the knowledge you and your team need to run a high-performing business with our robust training and education programs.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-8 col-11">
+                        <div class="card__content">
+                            <img src="./assets/img/main/cards-section/growth.png" alt="" class="card__img">
+
+                            <h4 class="card__title">Consistent Revenue Growth</h4>
+
+                            <p class="card__text">With a Central Review team that will help you write more accurate estimates and meet your top-line KPIs, you can be confident your business is more efficient than ever.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="company__service-tabs" id="company-tabs">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-xl-7 col-lg-8 col-md-10">
+                        <div class="tab-content company__tabs" id="v-pills-tabContent">
+
+                            <div class="tab-pane tabs__item-content fade show active" id="v-pills-system" role="tabpanel" aria-labelledby="v-pills-system-tab" tabindex="0">
+                                <div class="tabs__item">
+                                    <img src="./assets/img/main/company-service-tabs/1.png" alt="" class="company__tabs-img">
+        
+                                    <p class="company__tabs-text"> With a complete list of full-service automotive care from tires</p>
+        
+                                    <span class="bg_blue"></span>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane tabs__item-content fade" id="v-pills-customer" role="tabpanel" aria-labelledby="v-pills-customer-tab" tabindex="0">
+                                <div class="tabs__item">
+                                    <img src="./assets/img/main/company-service-tabs/2.png" alt="" class="company__tabs-img">
+        
+                                    <p class="company__tabs-text"> With a complete list of full-service automotive care from tires</p>
+        
+                                    <span class="bg_blue"></span>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane tabs__item-content fade" id="v-pills-software" role="tabpanel" aria-labelledby="v-pills-software-tab" tabindex="0">
+                                <div class="tabs__item">
+                                    <img src="./assets/img/main/company-service-tabs/3.png" alt="" class="company__tabs-img">
+        
+                                    <p class="company__tabs-text"> With a complete list of full-service automotive care from tires</p>
+        
+                                    <span class="bg_blue"></span>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane tabs__item-content fade" id="v-pills-sales" role="tabpanel" aria-labelledby="v-pills-sales-tab" tabindex="0">
+                                <div class="tabs__item">
+                                    <img src="./assets/img/main/company-service-tabs/4.png" alt="" class="company__tabs-img">
+        
+                                    <p class="company__tabs-text"> With a complete list of full-service automotive care from tires</p>
+        
+                                    <span class="bg_blue"></span>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane tabs__item-content fade" id="v-pills-operation" role="tabpanel" aria-labelledby="v-pills-operation-tab" tabindex="0">
+                                <div class="tabs__item">
+                                    <img src="./assets/img/main/company-service-tabs/5.png" alt="" class="company__tabs-img">
+        
+                                    <p class="company__tabs-text"> With a complete list of full-service automotive care from tires</p>
+        
+                                    <span class="bg_blue"></span>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane tabs__item-content fade" id="v-pills-human" role="tabpanel" aria-labelledby="v-pills-human-tab" tabindex="0">
+                                <div class="tabs__item">
+                                    <img src="./assets/img/main/company-service-tabs/6.png" alt="" class="company__tabs-img">
+        
+                                    <p class="company__tabs-text"> With a complete list of full-service automotive care from tires</p>
+        
+                                    <span class="bg_blue"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-5 col-lg-4 col-md-10">
+                        <div class="tabs__desc d-flex flex-column align-items-start">
+                            <h2 class="tabs__desc-title">We are with you every step of way.</h2>
+
+                            <p class="tabs__desc-text all-text">Now it's time for both of us to make sure it's a good fit. We've developed a mutual evaluation process that lets us both learn more about each other and make an informed decision about your future.</p>
+
+                            
+                            <div class="nav nav-pills tabs__controls d-flex flex-column align-items-start" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <button class="nav-link tabs__btn active" id="v-pills-system-tab" data-bs-toggle="pill" data-bs-target="#v-pills-system" type="button" role="tab" aria-controls="v-pills-system" aria-selected="true">Automotive systems</button>
+                                <button class="nav-link tabs__btn" id="v-pills-customer-tab" data-bs-toggle="pill" data-bs-target="#v-pills-customer" type="button" role="tab" aria-controls="v-pills-customer" aria-selected="false">Customer service</button>
+                                <button class="nav-link tabs__btn" id="v-pills-software-tab" data-bs-toggle="pill" data-bs-target="#v-pills-software" type="button" role="tab" aria-controls="v-pills-software" aria-selected="false">Computer software</button>
+                                <button class="nav-link tabs__btn" id="v-pills-sales-tab" data-bs-toggle="pill" data-bs-target="#v-pills-sales" type="button" role="tab" aria-controls="v-pills-sales" aria-selected="false">Sales</button>
+                                <button class="nav-link tabs__btn" id="v-pills-operation-tab" data-bs-toggle="pill" data-bs-target="#v-pills-operation" type="button" role="tab" aria-controls="v-pills-operation" aria-selected="false">Operations</button>
+                                <button class="nav-link tabs__btn" id="v-pills-human-tab" data-bs-toggle="pill" data-bs-target="#v-pills-human" type="button" role="tab" aria-controls="v-pills-human" aria-selected="false">Human resources</button>
+                            </div>
+                            
+                            <a href="./pages/service.html" class="all-link browse-link">Browse All</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="partners__section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-xxl-6 col-xl-7 col-lg-8">
+                        <h2 class="partners__title">Giving Back While Moving Your Auto Body Business Forward.</h2>
+                    </div>
+
+                    <div class="partners__images">
+                        <div class="row justify-content-center">
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/indexx.svg" alt="" class="partners__img">
+                            </div>
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/onapsis.svg" alt="" class="partners__img">
+                            </div>
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/bose.svg" alt="" class="partners__img">
+                            </div>
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/mcafee.svg" alt="" class="partners__img">
+                            </div>
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/advantmed.svg" alt="" class="partners__img">
+                            </div>
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/assembly.svg" alt="" class="partners__img">
+                            </div>
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/appneta.svg" alt="" class="partners__img">
+                            </div>
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/forescout.svg" alt="" class="partners__img">
+                            </div>
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/johnson.svg" alt="" class="partners__img">
+                            </div>
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/dtex.svg" alt="" class="partners__img">
+                            </div>
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/vitalia.svg" alt="" class="partners__img">
+                            </div>
+
+                            <div class="col-xl-2 col-md-3 col-sm-4 col-5 partners__img-box">
+                                <img src="./assets/img/main/partners-section/sight.svg" alt="" class="partners__img">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <a href="#top" class="scrollToTop"><i class="fas fa-arrow-up"></i></a>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__links-box">
+            <div class="container">
+                <div class="row justify-content-between">
+    
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                        <div class="footer__comp-info d-flex flex-column align-items-sm-start align-items-center text-sm-start text-center gap-4">
+                            <a href="" class="footer__logo logo-reload"><img src="./assets/img/logo.svg" alt="" class="footer__logo-img"></a>
+                            
+                            <p class="footer__info">With over 50 years in the auto repair industry, we have a network of successful franchisees.</p>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <p class="footer__list-title">Services</p>
+                        <ul class="footer__list">
+                            <li class="list__item"><a href="./pages/service-category-item.html" class="footer__link">Automate service</a></li>
+                            <li class="list__item"><a href="./pages/service-category-item.html" class="footer__link">Computer software</a></li>
+                            <li class="list__item"><a href="./pages/service-category-item.html" class="footer__link">Human recognation</a></li>
+                            <li class="list__item"><a href="./pages/service-category-item.html" class="footer__link">Operations</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                        <p class="footer__list-title">About</p>
+                        <ul class="footer__list">
+                            <li class="list__item"><a href="./pages/about-us.html" class="footer__link">Our Story</a></li>
+                            <li class="list__item"><a href="./pages/about-us.html" class="footer__link">Benefits</a></li>
+                            <li class="list__item"><a href="./pages/about-us.html" class="footer__link">Team</a></li>
+                            <li class="list__item"><a href="./pages/about-us.html" class="footer__link">Careers</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6">
+                        <p class="footer__list-title">Contact</p>
+                        <ul class="footer__list">
+                            <li class="list__item"><a href="./pages/contact.html" class="footer__link">9, Ziyolilar str., M.Ulugbek district, 100170 Tashkent, Uzbekistan</a></li>
+                            <li class="list__item"><a href="tel: +998998173066" class="footer__link">+998 99 817-30-66</a></li>
+                            <li class="list__item"><a href="tel: +998998173066" class="footer__link">+998 99 817-30-66 (Fax)</a></li>
+                            <li class="list__item"><a href="mailto: freelanceredfox@gmail.com" class="footer__link">freelanceredfox@gmail.com</a></li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+       
+        <div class="footer__privacy-info">
+            <div class="container">
+                <div class="row justify-content-md-between flex-md-row flex-column align-items-center">
+
+                    <div class="col-xl-3 col-lg-4 col-md-5 col-sm-7">
+                        <div class="footer__privacy-links w-100 d-flex flex-md-row flex-column justify-content-between align-items-center">
+                            <a href="#!" class="footer__privacy-link footer__link">Terms & Conditions</a>
+                            <a href="#!" class="footer__privacy-link footer__link">Privacy Policy</a>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4">
+                        <div class="footer__weblinks w-100 d-flex gap-5 justify-content-md-end align-items-center justify-content-center">
+                            <a href="#!" class="footer__web-link footer__link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#!" class="footer__web-link footer__link"><i class="fab fa-twitter"></i></a>
+                            <a href="#!" class="footer__web-link footer__link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/swiper.js"></script>
+    <script src="./assets/libs/bootstrap.js"></script>
+    <script src="./assets/js/navbarMenu.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/logo-reload.js"></script>
+    <script src="./assets/js/scrollToTop.js"></script>
+</body>
+</html>

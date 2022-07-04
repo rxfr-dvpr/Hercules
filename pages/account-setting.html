@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hercules</title>
+    <link rel="shortcut icon" href="../assets/img/h-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/font.css">
+    <link rel="stylesheet" href="../assets/libs/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/profile.css">
+    <link rel="stylesheet" href="../assets/css/account-setting.css">
+    <link rel="stylesheet" href="../assets/css/media/profile-media.css">
+    <link rel="stylesheet" href="../assets/css/media/account-setting-media.css">
+</head>
+<body id="body">
+
+    <nav class="header__nav">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <a href="../index.html" class="nav__logo"><img src="../assets/img/logo.svg" alt="" class="logo-img"></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+
+        <section class="profile__section account__setting-section">
+            <div class="container">
+                <div class="row justify-content-md-start justify-content-center position-relative">
+                    
+                    <div class="col-10 enter-contact__content">
+                        <form action="" class="account__setting-form d-flex flex-column align-items-md-start align-items-center text-md-start text-center">
+                            
+                            <h2 class="account__setting-title">Account Setting</h2>
+                            
+                            <p class="account__setting-text">Forget your password? Please enter your phone number or email address. You will resive a link to create a new password via email</p>
+                            
+                            <div class="input-box d-flex flex-column align-items-md-start align-items-center">
+                                <label for="emailOrPhone">email/phone number</label>
+                                <input type="text" class="emailOrPhone-inp" id="emailOrPhone" maxlength="30">
+                            </div> 
+                            
+                            <button class="sign-all-link reset-password-btn">Reset password</button>
+                        </form>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-8 col-10 enter-code__content">
+                        <form action="" class="account__setting-form d-flex flex-column align-items-md-start align-items-center text-md-start text-center">
+                            
+                            <h2 class="account__setting-title">enter code</h2>
+                                                        
+                            <div class="input-box d-flex flex-column align-items-md-start align-items-center">
+                                <label for="emailOrPhoneCode">code email/sms</label>
+                                <input type="text" class="emailOrPhone-inp" id="emailOrPhoneCode" maxlength="10">
+                            </div> 
+                            
+                            <button class="sign-all-link submit-code-btn">submit</button>
+                        </form>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-8 col-10 reset-password__content">
+                        <form action="" class="account__setting-form d-flex flex-column align-items-md-start align-items-center text-md-start text-center">
+                            
+                            <h2 class="account__setting-title">Reset password</h2>
+                                                        
+                            <div class="input-box d-flex flex-column align-items-md-start align-items-center">
+                                <label for="newPassword">New password</label>
+                                <input type="text" class="emailOrPhone-inp" id="newPassword" maxlength="10">
+                            </div> 
+                            
+                            <div class="input-box d-flex flex-column align-items-md-start align-items-center">
+                                <label for="confirmPassword">Confirm password</label>
+                                <input type="text" class="emailOrPhone-inp" id="confirmPassword" maxlength="10">
+                            </div>
+                            
+                            <button class="sign-all-link change-password-btn">Change password</button>
+                        </form>
+                    </div>
+                    
+                    <div class="col-10 success__content">
+                        <form action="" class="account__setting-form d-flex flex-column align-items-md-start align-items-center text-md-start text-center">
+                            <h2 class="account__setting-title">You changed the password</h2>
+                            
+                            <a href="../index.html" class="sign-all-link go-home-btn">Go home page</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <script src="../assets/libs/bootstrap.js"></script>
+    <script src="../assets/js/account-setting.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+@import "./variables.scss";
+
+main {
+    
+    .row {
+        height: max-content;
+    }
+    
+    .enter-contact__content {
+        opacity: 1;
+        transition: .5s;
+        
+        &.hidden {
+            opacity: 0;
+            display: none;
+        }
+    }
+    
+    .account__setting-form {
+        width: 100%;
+        row-gap: 35px;
+        min-height: 555px;
+        
+        .account__setting-title {
+            font-size: calc(28px + 4 * (100vw / 1920));
+            color: $primaryColor;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+        
+        #emailOrPhone {
+          max-width: 250px;
+          width: 100%;  
+        }
+        
+        .account__setting-text {
+            font-size: 16px;
+            color:  #6A7D8E;
+            max-width: 500px;
+            width: 100%;
+            text-transform: capitalize;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+        }
+    }
+    
+    .enter-code__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: .5s;
+        display: none;
+        
+        &.active {
+            position: static;
+            opacity: 1;
+            display: block;
+        }
+    }
+    
+    .reset-password__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: .5s;
+        display: none;
+        
+        &.active {
+            position: static;
+            opacity: 1;
+            display: block;
+        }
+    }
+    
+    .success__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: .5s;
+        display: none;
+        
+        &.active {
+            position: static;
+            opacity: 1;
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@media (max-width: 1440px){}
+@media (max-width: 1320px){}
+@media (max-width: 1290px){}
+@media (max-width: 1200px){}
+@media (max-width: 1170px){}
+@media (max-width: 1140px){}
+@media (max-width: 1024px){}
+@media (max-width: 992px){}
+@media (max-width: 850px){}
+@media (max-width: 768px){
+    .profile__section {
+        margin: 0 20px;
+    }
+}
+@media (max-width: 736px){}
+@media (max-width: 734px){}
+@media (max-width: 684px){}
+@media (max-width: 667px){}
+@media (max-width: 576px){}
+@media (max-width: 480px){}
+@media (max-width: 414px){}
+@media (max-width: 412px){}
+@media (max-width: 375px){}
+@media (max-width: 360px){}
+@media (max-width: 320px){}

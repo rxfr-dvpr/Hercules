@@ -1,0 +1,194 @@
+@media (max-width: 1440px){}
+@media (max-width: 1400px){}
+@media (max-width: 1320px){
+    .header__slider-slide::after {
+        background: linear-gradient(90.16deg, #000000 -19.6%, rgba(0, 0, 0, 0) 120.87%) !important;
+    }
+}
+@media (max-width: 1290px){}
+@media (max-width: 1200px){}
+@media (max-width: 1170px){}
+@media (max-width: 1140px){}
+@media (max-width: 1024px){
+    .header-slider {
+        height: 650px;
+    }
+}
+@media (max-width: 992px){
+
+    .navbar__collapse {
+        width: 100vw !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 850px;
+        background-color: rgba(0, 0, 0, 0.9);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+        z-index: -1;
+        row-gap: 40px;
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: .8s;
+        overflow-y: auto;
+    }
+
+    .navbar__collapse.opened {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .menu__btn {
+        display: flex !important;
+    }
+
+    .swiper {
+        height: 610px;
+    }
+
+    .header__slider-slide {
+        padding-top: 150px !important;
+    }
+
+    .slider__controls {
+        right: 3% !important;
+        top: 88% !important;
+    }
+
+    .header__slider-text {
+        margin: 15px 0 30px !important;
+    }
+
+    .company__tabs-text {
+        left: 5% !important;
+        font-size: calc(19px + (8 + 8 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .company__tabs {
+        height: 550px !important;
+    }
+
+
+}
+@media (max-width: 850px){
+    .header__slider-desc {
+        align-items: center !important;
+        text-align: center;
+    }
+}
+@media (max-width: 768px){}
+@media (max-width: 736px){
+    .all-link {
+        padding: 12px 20px;
+        font-size: 17px;
+    }
+}
+@media (max-width: 734px){}
+@media (max-width: 684px){}
+@media (max-width: 667px){}
+@media (max-width: 576px){
+    
+    .order__info-box .order-num {
+        display: none;
+    }
+
+    .menu__btn {
+        margin-right: 12px !important;
+    }
+
+    .footer__list {
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .footer__list-title {
+        text-align: center;
+    }
+
+    .footer__info {
+        max-width: 350px;
+        width: 100%;
+    }
+}
+@media (max-width: 480px){}
+@media (max-width: 416px){
+    .shop__info-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .partners__img {
+        min-height: auto !important;
+    }
+}
+@media (max-width: 412px){}
+@media (max-width: 375px){}
+@media (max-width: 360px){}
+@media (max-width: 320px){
+    .header__slider-title {
+        font-size: calc(26px + (30 + 30 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .header__slider-text {
+        font-size: calc(17px + (3 + 3 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .contact__desc-title {
+        font-size: calc(22px + (14 + 14 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .all-link {
+        padding: 12px 20px;
+        font-size: 17px;
+    }
+
+    .all-text {
+        font-size: calc(16px + (2 + 2 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .partners__title {
+        font-size: calc(20px + (16 + 16 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .services__title {
+        font-size: calc(26px + (10 + 10 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .services__content-title {
+        font-size: calc(20px + (4 + 4 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .services__content-text {
+        font-size: calc(14px + (2 + 2 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .tabs__desc-title {
+        font-size: calc(25px + (11 + 11 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .shop__item-title {
+        font-size: calc(23px + (5 + 5 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .card__title {
+        font-size: calc(22px + (2 + 2 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .tabs__btn {
+        font-size: calc(18px + (2 + 2 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+    .tabs__btn.active {
+        font-size: calc(22px + (2 + 2 * 0.7) * ((100vw - 320px)/ 1920));
+    }
+
+}

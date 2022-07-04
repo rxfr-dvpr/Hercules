@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hercules</title>
+    <link rel="shortcut icon" href="../assets/img/h-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/font.css">
+    <link rel="stylesheet" href="../assets/libs/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/profile.css">
+    <link rel="stylesheet" href="../assets/css/media/profile-media.css">
+</head>
+<body id="body">
+
+    <nav class="header__nav">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <a href="../index.html" class="nav__logo"><img src="../assets/img/logo.svg" alt="" class="logo-img"></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+
+        <section class="profile__section">
+            <div class="container-fluid">
+                <div class="row justify-content-center flex-md-row flex-column align-items-md-start align-items-center">
+                    
+                    <div class="col-md-6 col-sm-7 col-10">
+
+                        <ul class="nav justify-content-around" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link sign-link active" id="sign-in-tab" data-bs-toggle="pill" data-bs-target="#sign-in" type="button" role="tab" aria-controls="sign-in" aria-selected="true">Sign In</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link sign-link" id="sign-up-tab" data-bs-toggle="pill" data-bs-target="#sign-up" type="button" role="tab" aria-controls="sign-up" aria-selected="false">Sign Up</button>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content sign__tab-content" id="pills-tabContent">
+
+                            <div class="tab-pane fade show active tab__pane" id="sign-in" role="tabpanel" aria-labelledby="sign-in-tab" tabindex="0">
+                                <form action="" class="sign-form">
+
+                                    <div class="input-box">
+                                        <label for="sign-in-email">Email</label>
+                                        <input type="email" class="email-inp" id="sign-in-email" maxlength="30">
+                                    </div>
+
+                                    <div class="input-box">
+                                        <label for="sign-in-password">Password</label>
+                                        <input type="password" class="password-inp" id="sign-in-password" maxlength="30">
+
+                                        <a href="./account-setting.html" class="forgot-password-link">Forgot password?</a>
+
+                                        <p class="show-hide-btn"><i class="far fa-eye"></i></p>
+                                    </div>
+
+                                    <button class="sign-all-link">Sign in</button>
+
+                                </form>
+                            </div>
+
+                            <div class="tab-pane fade tab__pane" id="sign-up" role="tabpanel" aria-labelledby="sign-up-tab" tabindex="0">
+                                <form action="" class="sign-form">
+
+                                    <div class="input-box">
+                                        <label for="ft-name">First name*</label>
+                                        <input type="text" class="ft-name-inp" id="ft-name" maxlength="30">
+                                    </div>
+
+                                    <div class="input-box">
+                                        <label for="lt-name">Last name*</label>
+                                        <input type="text" class="lt-name-inp" id="lt-name" maxlength="30">
+                                    </div>
+
+                                    <div class="input-box">
+                                        <label for="phone-num">Phone number*</label>
+                                        <input type="number" class="phone-num-inp" id="phone-num" placeholder="+998(9*)***-**-**">
+                                    </div>
+
+                                    <div class="input-box">
+                                        <label for="sign-up-email">Email*</label>
+                                        <input type="email" class="email-inp" id="sign-up-email" maxlength="30">
+                                    </div>
+
+                                    <div class="input-box">
+                                        <label for="sign-up-password">Create password*</label>
+                                        <input type="password" class="password-inp" id="sign-up-password" maxlength="30">
+
+                                        <p class="show-hide-btn"><i class="far fa-eye"></i></p>
+                                    </div>
+
+                                    <button class="sign-all-link">Sign Up</button>
+
+                                </form>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-7 col-10">
+                        <div class="sign-via-box d-flex flex-column align-items-center">
+
+                            <div class="sign-via__links d-flex flex-column align-items-center text-center">
+                                <p class="sign-via-text">or Sign Up via</p>
+                                <a href="#!" class="sign-via-link"><i class="fab fa-facebook-f"></i> facebook</a>
+                                <a href="#!" class="sign-via-link"><img src="../assets/img/pages/profile-page/icons8-google.svg" alt="" class="google-icon"> google</a>
+                                <p class="terms-text">by clicking submit you agree to the <a href="#!">Terms and Conditions</a></p>
+                            </div>
+                            
+                            <img src="../assets/img/pages/profile-page/sign-img.svg" alt="grey svg plant with stars" class="sign-via-img">
+
+                        </div>
+
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <script src="../assets/libs/bootstrap.js"></script>
+    <script src="../assets/js/profile.js"></script>
+</body>
+</html>
