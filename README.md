@@ -1,5 +1,5 @@
 ### Hi My name is - Avazbek
-# Its my Portfolio Project - Hercules
+# It's my Portfolio Project - Hercules
 
 ### Here I used:
 - Html5 (BEM)
